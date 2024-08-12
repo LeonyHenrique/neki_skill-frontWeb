@@ -1,0 +1,69 @@
+.modalCreateSkill_modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalCreateSkill_modalContent {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modalCreateSkill_modalContent h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.modalCreateSkill_inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.modalCreateSkill_inputField textarea {
+  resize: none;
+  height: 80px;
+}
+
+.modalCreateSkill_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalCreateSkill_buttons button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.modalCreateSkill_buttons button:hover {
+  background-color: #0056b3;
+}
+
+.modalCreateSkill_buttons button + button {
+  background-color: #ff4d4d;
+}
+
+.modalCreateSkill_buttons button + button:hover {
+  background-color: #ff1a1a;
+}
